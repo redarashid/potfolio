@@ -40,8 +40,10 @@ body {
 .container {
   border: 2px solid var(--border);
   width: 80%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--secoundry);
+  padding: 0 3rem;
 }
 
 .line {
@@ -65,4 +67,16 @@ a {
 }
 button {
   all: unset;
+}
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+    padding: 0 1.7rem;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 98%;
+    padding: 0 1.7rem;
+  }
 }

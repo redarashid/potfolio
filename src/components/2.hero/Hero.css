@@ -1,0 +1,44 @@
+/* ===========================
+ table of contents
+==============================
+1. Left Section
+2. Right Section ==> animation*/
+
+section.hero {
+    margin-top: 3rem;
+}
+
+/* ========================
+    1. Left Section
+=========================== */
+
+section.hero .parent-avatar.flex {
+    align-items: end;
+}
+section.hero .left-section {
+    flex-grow: 1;
+}
+section.hero .avatar {
+    width: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 0, 0, 0.599);
+    padding: 1px;
+    box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.586) inset;
+}
+section.hero h1.title {
+    font-size: 2.85rem;
+    line-height: 3.3rem;
+    margin: 24px 0;
+    color: var(--title);
+}
+section.hero p.sup-title {
+    color: var(--subtitle);
+    line-height: 1.65rem;
+    font-size: 0.9rem;
+    margin-bottom: 32px;
+}
+
+/* ===================================
+    2. Right Section ==> animation
+====================================== */
