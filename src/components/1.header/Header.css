@@ -122,7 +122,7 @@ header.flex {
     border-radius: 1rem;
     padding: 1rem 2rem;
     background-color: var(--secoundry);
-    border: 1px solid #050505;
+    border: 1px solid #ffffff1a;
   }
   
   header .fixed ul.modal li {
