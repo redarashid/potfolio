@@ -4,7 +4,7 @@ import './Hero.css'
 const Hero = () => {
   return (
     <section className='hero flex'>
-      <div className='left-section border'>
+      <div className='left-section'>
         <div className='parent-avatar'>
           <img src='./me-modified.png' className='avatar' alt='me'/>
           <div className="icon-check-alt"></div>
@@ -22,9 +22,9 @@ const Hero = () => {
         
         <div className='all-icons flex'>
           <i class="fa-brands fa-twitter"></i>
-          <div className='icon icon-instagram'></div>
-          <div className='icon icon-github'></div>
-          <div className='icon icon-linkedin'></div>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-linkedin"></i>
         </div>
       </div>
 

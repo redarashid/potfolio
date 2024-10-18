@@ -38,6 +38,28 @@ section.hero p.sup-title {
     font-size: 0.9rem;
     margin-bottom: 32px;
 }
+section.hero .all-icons {
+    font-size: 1.2rem;
+    gap: 1.5rem;
+    cursor: pointer;
+    color: var(--subtitle);
+}
+section.hero .all-icons i:first-child:hover {
+    color: #1DA1F2;
+    transition: 0.3s ease-in;
+}
+section.hero .all-icons i:nth-child(2):hover {
+    color: #e1306c;
+    transition: 0.3s ease-in;
+}
+section.hero .all-icons i:nth-child(3):hover {
+    color: #FFF;
+    transition: 0.3s ease-in;
+}
+section.hero .all-icons i:nth-child(4):hover {
+    color: #0a66c2;
+    transition: 0.3s ease-in;
+}
 
 /* ===================================
     2. Right Section ==> animation
