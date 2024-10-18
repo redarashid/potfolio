@@ -1,50 +1,72 @@
-import React, { useState } from 'react'
+
+import { useState } from "react";
 import './Header.css'
-
 const Header = () => {
-
-  const[showModle, setShowModle] = useState(false)
-
+  const [showModal, setshowModal] = useState(false);
   return (
-    <header className='flex'>
-      <button onClick={()=> {
-        setShowModle(true)
-      }} className='menu icon-menu'></button>
-      <div/>
+    <header className="  flex">
+      <button onClick={() => {
+        setshowModal(true)
+      }} className="menu icon-menu flex">    </button>
+      <div />
 
-      <nav className='navigate'>
-        <ul className='flex'>
-          <li> <a href='#about'>About</a> </li>
-          <li> <a href='#articles'>Articles</a> </li>
-          <li> <a href='#projects'>Projects</a> </li>
-          <li> <a href='#speaking'>Speaking</a> </li>
-          <li> <a href='#uses'>Uses</a> </li>
+      <nav>
+        <ul className="flex">
+          <li>
+            <a href="a">About</a>
+          </li>
+
+          <li>
+            <a href="a">Articles</a>
+          </li>
+          <li>
+            <a href="a">Projects</a>
+          </li>
+          <li>
+            <a href="a">Speaking</a>
+          </li>
+          <li>
+            <a href="a">Contact</a>
+          </li>
         </ul>
       </nav>
 
-      <button>
-        light
+      <button className="mode flex">
+        <span className="icon-moon">  </span>
       </button>
 
-
-      {showModle && (
-        <div className='fixed'>
-          <ul className='modle'>
-            <li><button className='icon-clos' onClick={()=> {
-              setShowModle(false)
-            }}></button></li>
-            <li> <a href='#about'>About</a> </li>
-            <li> <a href='#articles'>Articles</a> </li>
-            <li> <a href='#projects'>Projects</a> </li>
-            <li> <a href='#speaking'>Speaking</a> </li>
-            <li> <a href='#uses'>Uses</a> </li>
+      {showModal && (
+        <div className="fixed">
+          <ul className="modal ">
+            <li >
+              <button className="icon-close" onClick={() => {
+                setshowModal(false)
+              }} />   
+              
+             
+              
+           
+            </li>
+            <li>
+              <a href="a">About</a>
+            </li>
+            <li>
+              <a href="a">Articles</a>
+            </li>
+            <li>
+              <a href="a">Projects</a>
+            </li>
+            <li>
+              <a href="a">Speaking</a>
+            </li>
+            <li>
+              <a href="a">Uses</a>
+            </li>
           </ul>
-      </div>
-
+        </div>
       )}
-
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
