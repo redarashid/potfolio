@@ -6,8 +6,8 @@
 3- Responsive Design (media query)*/
 
 main.flex {
-    align-items: start;
     gap: 2.64rem;
+    align-items: start;
 }
 
 /* ===============================
@@ -136,7 +136,6 @@ main section.right-section.flex {
       font-size: 0.9rem;
     }
   }
-
 
 
 

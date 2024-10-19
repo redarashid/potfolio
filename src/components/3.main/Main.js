@@ -15,15 +15,15 @@ const Main = () => {
 
       <section className='flex right-section'>
 
-        {['aa', 'bb', 'cc', 'dd', 'ff', 'ee', 'ww', 'rr'].map((items)=> {
+        {['aa', 'bb', 'cc', 'dd', 'ff', 'ee', 'ww', 'rr', 'ss'].map((items)=> {
           return (
             <article key={items} className=' card'>
-          <img width={327} src='./1 (1).jpg' alt=''/>
+          <img width={266} src='./1 (1).jpg' alt=''/>
 
-          <div className='box'>
+          <div style={{ width: "266px" }} className='box'>
             <h1 className='title'>Landing Page 2</h1>
-            <p className='sup-title'>Lorem ipsum dolor sit amet consectetur elit<br/> adipisicing . Ex
-              tempore dolor in<br/> accusantium laudantium accusamus.
+            <p className='sup-title'>Lorem ipsum dolor sit amet consectetur elit adipisicing . Ex
+              tempore dolor in accusantium laudantium accusamus.
             </p>
 
             <div className='icons flex'>
