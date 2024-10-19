@@ -28,7 +28,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='left-section animation border'>Right</div>
+      <div className='left-section animation '></div>
     </section>
   )
 }

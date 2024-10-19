@@ -55,12 +55,13 @@ section.contact-us button {
     text-transform: capitalize;
 
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
     margin-top: 1.8rem;
     cursor: pointer;
 }
 section.contact-us button:hover {
     scale: 0.97;
+    background-color: rgb(45 212 191);
 }
 
 

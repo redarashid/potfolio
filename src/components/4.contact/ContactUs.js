@@ -29,7 +29,7 @@ const ContactUs = () => {
           <button className="submit">Submit</button>
         </form>
 
-        <div className='animation border'>Animation</div>
+        <div className='animation'></div>
       </div>
     </section>
   )  
