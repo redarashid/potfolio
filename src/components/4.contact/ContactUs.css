@@ -62,3 +62,30 @@ section.contact-us button {
 section.contact-us button:hover {
     scale: 0.97;
 }
+
+
+/* =====================================
+  3- Responsive Design (media query)
+======================================== */
+
+@media (max-width: 600px) {
+    section.contact-us .animation {
+        display: none;
+    }
+    section.contact-us form {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+    section.contact-us form div.flex {
+        align-items: start;
+        flex-direction: column;
+    }
+    section.contact-us #email,
+    section.contact-us #message {
+        width: 100%;
+        margin-left: 0;
+        padding: 0.7rem 0;
+        margin-top: 1rem;
+    }
+}
